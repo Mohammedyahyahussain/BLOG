@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+ </head>
+ <body>
+
+   
+   <%- include("partials/header.ejs") %>
+
+
+<h1 class="firstpage">Welcome To The Blog</h1>
+
+
+<img src="images/blog.jpeg" alt="blog pic">
+
+
+<h2 class="firstpage">Want To Start The Blog, Click This Block</h2>
+
+
+<h3 class="emoji">👇👇👇</h3>
+
+
+<div class="button">
+   <form action="/submit" method="get">
+      <a class="btn btn-outline-light" href="/blog" role="button">Click</a>
+   </form>
+</div>
+
+
+ <%- include("partials/footer.ejs") %>
+ </body>
+ </html>

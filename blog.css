@@ -1,0 +1,98 @@
+/* body{
+    background-color: #ab473f  ;
+} */
+
+
+body{
+    background-color: #54020d;
+    font-family: 'Miriam Libre', sans-serif;
+    color: #e0dadb;
+}
+ 
+
+/*************************** BLOG PAGE ***************************/
+
+
+.result{
+   position: absolute;
+   right: 200px ;
+   top: 250px;
+   border: 2px;
+   bottom: 140px; 
+}
+
+
+.textpage{
+    position: absolute;
+    left: 50px;
+    bottom: 140px;
+}
+
+ 
+.btn {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+
+.btn-outline-light {
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+}
+
+ 
+.btn-container {
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+h1,h2{
+    text-align: center;
+    margin: 50px; 
+}
+
+
+h4,p{
+    text-align: center;
+}
+
+ 
+/*************************** INDEX PAGE ***************************/
+
+
+.firstpage{
+     margin: 50px;
+     margin-bottom: 20px;
+    text-align: center;
+   }
+
+
+ img{
+    display: block;
+ margin: 90px auto 90px;
+ }
+  
+
+.button{
+    text-align: right;
+    margin-right: 350px;
+}
+
+
+.emoji{
+    text-align: right;
+    margin-right: 340px;
+   margin-top: 1px;
+}

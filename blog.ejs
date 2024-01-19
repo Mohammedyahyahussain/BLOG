@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+</head>
+<body>
+    <%- include("partials/header.ejs") %>
+    <h1>Write your BLOG</h1>
+  
+
+<div class="textpage">
+    <form action="/submit" method="post" id="blogForm">
+        <textarea name="message" rows="10" cols="70"></textarea>
+        <input type="hidden" name="randomAdjective" value="<%= Adjective[0] %>">
+        <br>
+        <div class="btn-container">
+            <button type="submit" class="btn btn-outline-light">SAVE</button>
+             
+        </div>
+    </form>
+</div>
+
+
+<div class="result">
+    <h1>You Are:</h1>
+    <% if (DisplayAdjectives) { %>
+        
+        <h2><%= Adjective %></h2>
+    <% } %>
+    <% if (Message !== "") { %>
+        <h4>Your Text:</h4>
+        <p><%= Message %></p>
+    <% } %>
+</div>
+
+
+</body>
+</html>
